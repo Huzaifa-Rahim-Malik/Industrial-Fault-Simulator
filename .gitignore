@@ -1,0 +1,22 @@
+# OS / editor junk
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+
+# Altium backups / previews
+History/
+__Previews/
+*.~*.SchDoc
+*.~*.PrjPcb
+
+# Office lock files
+.~lock.*
+
+# Large local-only media (not tracked in this repo)
+media/*
+!media/.gitkeep
