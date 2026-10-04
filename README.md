@@ -15,7 +15,7 @@ The rig drives a rotating shaft (motor → flywheel/gear train) loaded by a magn
 
 ## System Architecture
 
-![Block diagram](images/Industrial_Test_RIG_Block_Diagram.jpg)
+![Block diagram](Old_Design/images/Industrial_Test_RIG_Block_Diagram.jpg)
 
 **Mechanical / drive:** AC motor → gear/flywheel assembly → magnetic powder brake (adjustable load), with a tachometer for shaft speed.
 
