@@ -6,13 +6,13 @@ A bench-scale rig for reproducing common industrial machine faults (unbalance, m
 
 ## Overview
 
-The rig drives a rotating shaft (motor → flywheel/gear train) loaded by a magnetic powder brake, instrumented with vibration, current, temperature, speed, and liquid-level/flow sensors. Sensor signals are digitized through a DAQ (USB-6008 digital + Advantech analog channels) and logged through a custom LabVIEW application, with Python used for downstream plotting/analysis. This lets known faults be injected and recorded as labeled datasets for later diagnostic/ML work.
+The rig drives a rotating shaft (motor → flywheel/gear train) loaded by a magnetic powder brake, instrumented with vibration, current, temperature, speed, and liquid-level/flow sensors. Sensor signals are digitized through a DAQ (USB-6008 digital) and logged through a custom LabVIEW application, with Python used for downstream plotting/analysis. This lets known faults be injected and recorded as labeled datasets for later diagnostic/ML work.
 ### Features
-- Induction motor driven shaft with worm gearbox and adjustable mechanical load
+- Induction motor driven shaft with mechnical gearbox and adjustable mechanical load
 - Fault injection: load (weight plates, magnetic clutch/brake), flow/level (pump and water tank), electrical (current)
 - Sensors: accelerometers, current sensors, tachometer, temperature/humidity, water level
 - Data acquisition with NI USB DAQ and Arduino, logged through LabVIEW
-
+![Test rig]( Old_Design/images/Fault_Simulator.jpg)
 ## System Architecture
 
 ![Block diagram](Old_Design/images/Industrial_Test_RIG_Block_Diagram.jpg)
