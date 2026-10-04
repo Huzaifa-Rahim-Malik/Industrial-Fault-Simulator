@@ -20,7 +20,7 @@ The rig drives a rotating shaft (motor → flywheel/gear train) loaded by a magn
 **Mechanical / drive:** AC motor → gear/flywheel assembly → magnetic powder brake (adjustable load), with a tachometer for shaft speed.
 
 **Sensing:**
-- 3-axis accelerometers (vibration, CMCP760T-2 type)
+- 3-axis accelerometers (MPU9050)
 - Current sensors (per phase)
 - Thermocouple (KTC) temperature sensing
 - Tachometer (speed/RPM)
