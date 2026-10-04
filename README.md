@@ -1,12 +1,12 @@
 # Industrial Test Rig Simulator
 
-A bench-scale rig for reproducing common industrial machine faults (unbalance, misalignment, bearing wear, abnormal load, flow/level faults, overcurrent) under controlled, repeatable conditions, with a full multi-sensor data-acquisition pipeline for predictive-maintenance research.
+A bench-scale rig for reproducing common industrial machine faults (unbalance, abnormal load, flow/level faults, overcurrent) under controlled, repeatable conditions, with a full multi-sensor data-acquisition pipeline for predictive-maintenance research.
 
 ![Test rig](images/Test_Rig_Photo_1.jpg)
 
 ## Overview
 
-The rig drives a rotating shaft (motor → flywheel/gear train) loaded by a magnetic powder brake, instrumented with vibration, current, temperature, speed, and liquid-level/flow sensors. Sensor signals are digitized through a DAQ (USB-6008 digital + Advantech analog channels) and logged through a custom LabVIEW application, with Python used for downstream plotting/analysis. This lets known faults be injected and recorded as labeled datasets for later diagnostic/ML work.
+The test rig drives a rotating shaft (motor → flywheel/gear train) loaded by a magnetic powder brake, instrumented with vibration, current, temperature, and liquid-level/flow sensors. Sensor signals are digitized through a DAQ (USB-6008 digital) and logged through a custom LabVIEW application, with Python used for downstream plotting/analysis. This lets known faults be injected and recorded as labeled datasets for later diagnostic/ML work.
 
 ## System Architecture
 
@@ -15,16 +15,16 @@ The rig drives a rotating shaft (motor → flywheel/gear train) loaded by a magn
 **Mechanical / drive:** AC motor → gear/flywheel assembly → magnetic powder brake (adjustable load), with a tachometer for shaft speed.
 
 **Sensing:**
-- 3-axis accelerometers (vibration, CMCP760T-2 type)
+- 3-axis accelerometers (IMU 9050)
 - Current sensors (per phase)
-- Thermocouple (KTC) temperature sensing
+- KTC Powder Brake with mechanical clutch 
 - Tachometer (speed/RPM)
 - Inner/outer tank water level sensors (float + flow)
 - Encoder feedback
 
-**Power / control:** ATX power supply, 2-channel relay switching, magnetic powder brake controller, 24V/12V/5V distribution.
+**Power / control:** ATX power supply, 2-channel relay switching and 24V/12V/5V distribution.
 
-**Acquisition:** NI/Advantech DAQ (digital I/O + analog current/vibration channels) → LabVIEW VI → CSV/LVM logs → Python plotting.
+**Acquisition:** NI DAQ 6008 (digital I/O + analog current/vibration channels) → LabVIEW VI → CSV/LVM logs → Python plotting.
 
 Full signal map and wiring: [`docs/Block_Diagram.pdf`](docs/Block_Diagram.pdf) · Complete hardware writeup: [`docs/Hardware_Description.pdf`](docs/Hardware_Description.pdf)
 
