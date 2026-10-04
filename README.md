@@ -55,10 +55,6 @@ The sensor-interface and power-distribution PCB was designed in Altium (`hardwar
 
 `data/sample_datasets/` contains representative acquisition runs at no-load and 2/5/7/10 kg brake loads, plus example current-sensor and accelerometer captures — useful for quick inspection of signal behavior without running the rig.
 
-## Notes
-
-- Demo/setup videos (~180 MB) were left out of this repository to keep it lightweight; they're available on request or can be linked here via YouTube/Drive.
-- Altium version-history (`History/`) and IDE/cache folders from the original working directory were excluded as non-essential.
 
 ## Author
 
