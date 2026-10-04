@@ -2,7 +2,7 @@
 
 A bench-scale rig for reproducing common industrial machine faults (unbalance, misalignment, bearing wear, abnormal load, flow/level faults, overcurrent) under controlled, repeatable conditions, with a full multi-sensor data-acquisition pipeline for predictive-maintenance research.
 
-![Test rig](images/Test_Rig_Photo_1.jpg)
+![Test rig](Old Design/images/Test_Rig_Photo_1.jpg)
 
 ## Overview
 
