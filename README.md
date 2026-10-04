@@ -3,7 +3,7 @@
 A bench-scale rig for reproducing common industrial machine faults (unbalance, abnormal load, flow/level faults, overcurrent) under controlled, repeatable conditions, with a multi-sensor data-acquisition pipeline for predictive-maintenance research.
 
 <p align="center">
-  <img src="images/Fault_Simulator.jpg" alt="Test rig" width="700">
+  <img src="Old Design/images/Fault_Simulator.jpg" alt="Test rig" width="700">
 </p>
 
 ## Features
