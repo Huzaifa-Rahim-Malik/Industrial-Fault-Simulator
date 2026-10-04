@@ -1,0 +1,22 @@
+Column 0--> Current Phase A
+Column 1--> Current Phase B
+Column 2--> Current Phase C
+Column 3--> Accelerometer1 X-axis
+Column 4--> Accelerometer1 Y-axis
+Column 5--> Accelerometer1 Z-axis
+Column 6--> Accelerometer2 X-axis
+Column 7--> Accelerometer2 Y-axis
+Column 8--> Accelerometer2 Z-axis
+Column 9--> Sound Sensor1
+Column 10--> Sound Sensor2
+Column 11--> Water Level Sensor1 digital input
+Column 12--> Water Level Sensor2 digital input
+Column 13--> Tachometer1 digital input
+Column 14--> Tachometer2 digital input
+Column 15--> Relay1 digital output
+Column 16--> Relay2 digital output
+
+
+
+Column0 to Column 10 --> Analog Signals
+Column11 to Column 16 --> Digital Signals
