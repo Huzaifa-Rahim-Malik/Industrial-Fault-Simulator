@@ -3,7 +3,7 @@
 A bench-scale rig for reproducing common industrial machine faults (unbalance, abnormal load, flow/level faults, overcurrent) under controlled, repeatable conditions, with a full multi-sensor data-acquisition pipeline for predictive-maintenance research.
 
 ![Test rig](images/Fault_Simulator.pdf)
-
+![Test rig](images/Fault_Simulator.jpg)
 ## Overview
 
 The test rig drives a rotating shaft (motor → flywheel/gear train) loaded by a magnetic powder brake, instrumented with vibration, current, temperature, and liquid-level/flow sensors. Sensor signals are digitized through a DAQ (USB-6008 digital) and logged through a custom LabVIEW application, with Python used for downstream plotting/analysis. This lets known faults be injected and recorded as labeled datasets for later diagnostic/ML work.
