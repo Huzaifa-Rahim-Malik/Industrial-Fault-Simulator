@@ -10,7 +10,7 @@ The test rig drives a rotating shaft (motor → flywheel/gear train) loaded by a
 
 ## System Architecture
 
-![Block diagram](images/Industrial_Test_RIG_Block_Diagram.jpg)
+![Block diagram](images/Fault SImulator.pdf)
 
 **Mechanical / drive:** AC motor → gear/flywheel assembly → magnetic powder brake (adjustable load), with a tachometer for shaft speed.
 
