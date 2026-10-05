@@ -89,7 +89,8 @@ The 3D design of the Industrial Test Rig Simulator V2.0 is shown below.
 ![Render_Image]( New_Design/images/CAD_Design1.jpg)
 ![Render_Image]( New_Design/images/CAD_Design2.jpg)
 
-**Sensors Power Supply and Output:** The V2.0 design incorporates upgraded industrial sensors for comprehensive monitoring of vibration, acoustic emissions, temperature, current, speed, and liquid-level conditions. Detailed information on sensor specifications, power requirements, and output signals is provided in[`New_Design/docs/Test_Rig_Design_Sensor_Description`](New_Design/docs/Test_Rig_Design_Sensor_Description)
+**Sensors Power Supply and Output:** The V2.0 design incorporates upgraded industrial sensors for comprehensive monitoring of vibration, acoustic emissions, temperature, current, speed, and liquid-level conditions. Detailed information on sensor specifications, power requirements, and output signals is provided in[`New_Design/docs/Test_Rig_Design_Sensor_Description`](New_Design/docs/Test_Rig_Design_Sensor_Description.xlsx)
+
 ![Render_Image]( New_Design/images/Design_ITR.png)
 ## Author
 
