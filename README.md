@@ -65,6 +65,7 @@ Electrical Schematic: [`Old_Design/docs/Hardware_Connection`](Old_Design/docs/Ha
 
 Sensors Power Supply and Output: [`Old_Design/docs/Hardware_Wiring.xlsx`](Old_Design/docs/Hardware_Wiring.xlsx)
 
+Detailed Description of Sensors and Wiring: [`Old_Design/docs/Industrial_test_Rig_Hardware_Description.pdf`](Old_Design/docs/Industrial_test_Rig_Hardware_Description.pdf)
 ## Software
 
 - **LabVIEW** (`Old_Design/firmware/software/labview/Sensor_data.vi`) performs synchronized multi-channel data acquisition from the NI DAQ and records timestamped sensor measurements for analysis and condition monitoring.
