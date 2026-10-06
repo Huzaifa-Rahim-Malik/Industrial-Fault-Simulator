@@ -59,7 +59,7 @@ Industrial-Test-Rig-Simulator/
 
 ## Hardware
 
-The sensor-interface and power-distribution of the system was designed in Altium (`hardware/altium/`), handling 24V/12V/5V rail distribution to sensors and the brake controller, and routing analog/digital sensor lines to the DAQ. See `Old_Design/docs/Test_Rig_Sensors.xlsx` for the full bill of materials and for sensor specs.
+The sensor-interface and power-distribution of the system was designed in Altium [`hardware/altium/`](hardware/altium/), handling 24V/12V/5V rail distribution to sensors and the brake controller, and routing analog/digital sensor lines to the DAQ. See [`Old_Design/docs/Test_Rig_Sensors.xlsx`](Old_Design/docs/Test_Rig_Sensors.xlsx) for the full bill of materials and for sensor specs.
 
 Electrical Schematic: [`Old_Design/docs/Hardware_Connection`](Old_Design/docs/Hardware_Connection) 
 
@@ -68,11 +68,11 @@ Sensors Power Supply and Output: [`Old_Design/docs/Hardware_Wiring.xlsx`](Old_De
 Detailed Description of Sensors and Wiring: [`Old_Design/docs/Industrial_test_Rig_Hardware_Description.pdf`](Old_Design/docs/Industrial_test_Rig_Hardware_Description.pdf)
 ## Software
 
-- **LabVIEW** (`Old_Design/firmware/software/labview/Sensor_data.vi`) performs synchronized multi-channel data acquisition from the NI DAQ and records timestamped sensor measurements for analysis and condition monitoring.
+- **LabVIEW** [`Old_Design/firmware/software/labview/Sensor_data.vi`](Old_Design/firmware/software/labview/Sensor_data.vi) performs synchronized multi-channel data acquisition from the NI DAQ and records timestamped sensor measurements for analysis and condition monitoring.
 
 ![Labview_GUI]( Old_Design/images/labview2.png)
 
-- **Firmware** (`Old_Design/firmware/python/Main_data.py`) The Arduino continuously streams raw X, Y, and Z-axis accelerometer readings over a serial interface for standalone vibration capture. The accelerometer data is synchronized with the LabVIEW-based DAQ measurements, allowing both datasets to be acquired and logged into a single unified data file for subsequent vibration analysis, signal processing, and condition-monitoring applications.
+- **Firmware** [`Old_Design/firmware/python/Main_data.py`](Old_Design/firmware/python/Main_data.py) The Arduino continuously streams raw X, Y, and Z-axis accelerometer readings over a serial interface for standalone vibration capture. The accelerometer data is synchronized with the LabVIEW-based DAQ measurements, allowing both datasets to be acquired and logged into a single unified data file for subsequent vibration analysis, signal processing, and condition-monitoring applications.
 
 ## Sample Data
 
