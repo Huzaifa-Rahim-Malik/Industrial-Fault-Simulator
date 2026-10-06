@@ -79,7 +79,7 @@ Detailed Description of Sensors and Wiring: [`Old_Design/docs/Industrial_test_Ri
 [`Old_Design/data/sample_datasets/`](Old_Design/data/sample_datasets/) contains representative acquisition runs at no-load and 2/5/7/10 kg wight loads, plus example current-sensor and accelerometer captures — useful for quick inspection of signal behavior without running the rig.
 
 ![Dataset]( Old_Design/images/Sample_Data_Plot.png)
-Dataset Column Representation: For an overview of the dataset structure and column representation, refer to the sample datasets available in [`Old_Design/data/sample_datasets/0. Sensor_Data_acquistion_Data_Column.lvm`](Old_Design/data/sample_datasets/0. Sensor_Data_acquistion_Data_Column.lvm) 
+Dataset Column Representation: For an overview of the dataset structure and column representation, refer to the sample datasets available in [`Old_Design/data/sample_datasets/0. Sensor_Data_acquistion_Data_Column.lvm`]
 
 # Industrial Test Rig Simulator V2.0
 The Industrial Test Rig Simulator V2.0 is currently under development, with a redesigned architecture incorporating industrial-grade sensors and advanced instrumentation. The new design is intended to replicate more complex operating conditions and fault scenarios commonly encountered in predictive maintenance and industrial condition monitoring.
