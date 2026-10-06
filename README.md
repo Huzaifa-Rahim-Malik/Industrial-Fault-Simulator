@@ -76,7 +76,7 @@ Detailed Description of Sensors and Wiring: [`Old_Design/docs/Industrial_test_Ri
 
 ## Sample Data
 
-`Old_Design/data/sample_datasets/` contains representative acquisition runs at no-load and 2/5/7/10 kg wight loads, plus example current-sensor and accelerometer captures — useful for quick inspection of signal behavior without running the rig.
+[`Old_Design/data/sample_datasets/`](Old_Design/data/sample_datasets/) contains representative acquisition runs at no-load and 2/5/7/10 kg wight loads, plus example current-sensor and accelerometer captures — useful for quick inspection of signal behavior without running the rig.
 
 ![Dataset]( Old_Design/images/Sample_Data_Plot.png)
 Dataset Column Representation: For an overview of the dataset structure and column representation, refer to the sample datasets available in [`Old_Design/data/sample_datasets`](Old_Design/data/sample_datasets) 
