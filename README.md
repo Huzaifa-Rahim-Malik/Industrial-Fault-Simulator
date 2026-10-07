@@ -99,4 +99,8 @@ The new design is in manufacturing process, Some of the parts have been manufact
 ![New_Design]( New_Design/Images/Test_rig2.jpeg)
 ## Author
 
-Muhammad Huzaifa Rahim Malik — designed and built as part of applied predictive-maintenance / industrial sensing work.
+This project (V1.0) is done by the following team members while (V2.0) is in manufacturing process
+- Dr.Muhammad Ahmad Kamran (Team Lead), AITeC Islamabad
+- Muhammad Huzaifa Rahim Malik (Electronics Design), AITeC Islamabad
+- Muhammad Mohsin Razaqi (Mechanical Design), AITeC Islamabad 
+
