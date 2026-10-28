@@ -99,7 +99,11 @@ The new design is in manufacturing process, Some of the parts have been manufact
 ![New_Design]( New_Design/Images/Test_rig2.jpeg)
 ## Author
 
+<<<<<<< HEAD
 This project (V1.0) is done by the following team members while (V2.0) is in manufacturing process
+=======
+This project is done by the following team members and currently is in development phase
+>>>>>>> 24650e3 (update files)
 - Dr.Muhammad Ahmad Kamran (Team Lead), AITeC Islamabad
 - Muhammad Huzaifa Rahim Malik (Electronics Design), AITeC Islamabad
 - Muhammad Mohsin Razaqi (Mechanical Design), AITeC Islamabad 
